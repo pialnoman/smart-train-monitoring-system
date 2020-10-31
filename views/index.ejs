@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" />
+    <title>STM&VC</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- S I D E B A R -->
+    <section id="sidebar">
+        <div class="white-label">
+        </div>
+        <div id="sidebar-nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bar-chart"></i> Charts</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-line-chart"></i> Time Span</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-calendar"></i> Calendar</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cogs"></i> Settings</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="content">
+        <!-- H E A D E R -->
+        <div id="header">
+            <div class="header-nav">
+                <div class="nav">
+                    <ul>
+                        <li class="nav-mail">
+                            <div class="font-icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                        </li>
+                        <li class="nav-calendar">
+                            <div class="font-icon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                        </li>
+                        <li class="nav-calendar">
+                            <div class="font-icon">
+                                <i class="fa fa-exclamation-triangle"></i>
+                            </div>
+                        </li>
+                        <li class="nav-profile">
+                            <div class="nav-profile-image">
+                                <img src="assets/img/admin.jpg" alt="profile-img" alt="profile image">
+                                <div class="nav-profile-name">Jane Arun
+                                    <i class="fa fa-caret-down"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- M A I N - B O D Y -->
+        <div class="content">
+            <div class="content-header">
+                <h1>SMART TRAIN MONITORING & VELOCITY CONTROL SYSTEM</h1>
+            </div>
+            <div class="widget-box sample-widget">
+                <div class="widget-header">
+                    <h2>Speed</h2>
+                    <i class="fa fa-cog"></i>
+                </div>
+                <div class="widget-content">
+                    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                    <div id="chart_div" style="width: 100%; height: 100%;"></div>
+                </div>
+            </div>
+            <div class="widget-box sample-widget">
+                <div class="widget-header">
+                    <h2>Location</h2>
+                    <i class="fa fa-cog"></i>
+                </div>
+                <div class="widget-content">
+                    <div id="map" style="width:100%;height:100%">
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz90mWf8spucq9qeDZ_DBrluYuuxdsJXQ"></script>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container">
+                <div class="col-md-4">
+                    <div class="text-center box">
+                        <h2>Present Location</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center box">
+                        <h2>Station Left</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center box">
+                        <h2>Destination</h2>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <script src="assets/js/speedometer.js"></script>
+
+</body>
+
+</html>
